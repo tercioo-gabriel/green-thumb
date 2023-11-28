@@ -16,12 +16,14 @@
   }
 }
 
+@layer base{
+  .layoutDefault{
+    @apply max-w-screen-lg mx-auto
+  }
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #1F1F1F;
+  background: white
+  
 }
