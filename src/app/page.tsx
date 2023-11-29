@@ -1,12 +1,17 @@
 import Navbar from "@/components/Navbar/Navbar";
 import Hero from "./Home/Hero/Hero";
+import Products from "./Home/Products/Products";
+import Hottest from "./Home/Hottest/Hottest";
+import Deals from './Home/Deals/Deals';
 
 export default function Home() {
   return (
     <main className="layoutDefault">
       <Navbar />
       <Hero />
-      <div className="z-0 bg-red-200 w-36 h-36 mx-auto"></div>
+      <Products />
+      <Hottest />
+      <Deals />
     </main>
   )
 }

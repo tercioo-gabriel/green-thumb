@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,12 +19,15 @@
 
 @layer base{
   .layoutDefault{
-    @apply max-w-screen-lg mx-auto
+    @apply max-w-5xl mx-auto
+  }
+  .PxSections{
+    @apply px-6 sm:px-14
   }
 }
 
-body {
+body,* {
   color: #1F1F1F;
-  background: white
+  font-family: 'Outfit', sans-serif;
   
 }

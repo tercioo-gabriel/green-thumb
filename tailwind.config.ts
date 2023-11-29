@@ -20,6 +20,10 @@ const config: Config = {
         'verde': '#50806B',
         'verde2': '#E8EDDE',
       },
+      screens: {
+        'xs': '485px',
+        'xls': '360px',
+      },
     },
   },
   plugins: [],
