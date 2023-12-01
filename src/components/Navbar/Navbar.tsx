@@ -2,7 +2,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () =>{
   return(
-    <div className="z-[9999] fixed layoutDefault flex flex-col w-full shadow-3xl">
+    <div className="z-[9999] fixed layoutDefault flex flex-col w-full top-0 right-0 left-0 shadow-3xl">
       <div className="flex items-center justify-center h-8 bg-verde">
         <p className="text-white text-sm tracking-wider">FREE SHIPPING ON ALL FULL SUN PLANTS! FEB. 25–28.</p>
       </div>
